@@ -3252,7 +3252,8 @@ textarea.is-invalid {
 
 .title-area.mb-0 .sec-title {
     margin-bottom: -0.41em;
-    font-family: serif;
+    font-family: var(--title-font);
+    line-height: 50px
 }
 
 .title-area .th-btn {
@@ -8025,18 +8026,18 @@ blockquote.has-text-align-right,
 }
 
 .main-menu ul li.menu-item-has-children>a:hover:after {
-    content: "\f068"
+    content: ""
 }
 
 .main-menu ul li.menu-item-has-children>a:after {
-    content: "\2b";
+    content: "";
     position: relative;
     font-family: var(--icon-font);
-    margin-left: 4px;
+    margin-left: 5px;
     font-weight: 900;
     left: 0;
     top: 0;
-    font-size: 12px;
+    font-size: 10px;
     -webkit-transform: scaleX(1);
     -ms-transform: scaleX(1);
     transform: scaleX(1);
