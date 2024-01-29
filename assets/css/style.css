@@ -9854,8 +9854,9 @@ blockquote.has-text-align-right,
 
 .breadcumb-wrapper {
     position: relative;
-    padding: 249px 0 120px 0;
-    z-index: 2
+    padding: 170px 0 120px 0;
+    z-index: 2;
+    margin-top: 100px;
 }
 
 .breadcumb-wrapper.th-breadcumb {
@@ -9890,7 +9891,7 @@ blockquote.has-text-align-right,
     inset: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(10, 10, 10, 0.8);
+    background-color: rgba(10, 10, 10, 0.5);
     z-index: -1
 }
 
@@ -9920,7 +9921,7 @@ blockquote.has-text-align-right,
 
 @media (max-width: 991px) {
     .breadcumb-wrapper {
-        padding: 255px 0 120px 0
+        padding: 120px 0 120px 0
     }
 
     .breadcumb-title {
@@ -9930,7 +9931,7 @@ blockquote.has-text-align-right,
 
 @media (max-width: 640px) {
     .breadcumb-wrapper {
-        padding: 200px 0 80px 0
+        padding: 120px 0 80px 0
     }
 
     .breadcump-shape {
@@ -9944,7 +9945,7 @@ blockquote.has-text-align-right,
 
 @media (max-width: 575px) {
     .breadcumb-wrapper {
-        padding: 200px 0 80px 0
+        padding: 50px 0 80px 0
     }
 
     .breadcumb-title {
